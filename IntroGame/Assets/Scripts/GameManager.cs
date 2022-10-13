@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public Text scoretext;
     public GameObject wintext;
     public PlayerController pc;
+    public GameObject Player;
+    public Text PlayerPosition;
+    public Text PlayerVelocity;
+
     public void Start()
     {
         scoretext.text = "Score: 0";
@@ -31,6 +35,9 @@ public class GameManager : MonoBehaviour
             wintext.SetActive(true);
             Destroy(pc);
         }
+
+        PlayerPosition.text = "Position: " + Player.transform.position;
+        PlayerVelocity.text = "Velocity: " + Player.GetComponent<Rigidbody>().velocity;
 
     }
 }
