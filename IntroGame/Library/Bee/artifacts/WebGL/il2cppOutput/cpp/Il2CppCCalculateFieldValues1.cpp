@@ -11381,6 +11381,12 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___wintext_6;
 	// PlayerController GameManager::pc
 	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___pc_7;
+	// UnityEngine.GameObject GameManager::Player
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Player_8;
+	// UnityEngine.UI.Text GameManager::PlayerPosition
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___PlayerPosition_9;
+	// UnityEngine.UI.Text GameManager::PlayerVelocity
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___PlayerVelocity_10;
 };
 
 // Pickup
@@ -14609,9 +14615,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4245[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4248[2] = 
 {
 	static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___player_4)),static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___offset_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4249[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4249[7] = 
 {
-	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___score_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___scoretext_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___wintext_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___pc_7)),};
+	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___score_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___scoretext_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___wintext_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___pc_7)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Player_8)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___PlayerPosition_9)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___PlayerVelocity_10)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4250[2] = 
 {
 	static_cast<int32_t>(offsetof(Pickup_tE353BFD6F96A556F00672AD2761272F6AAABA0B8, ___gm_4)),static_cast<int32_t>(offsetof(Pickup_tE353BFD6F96A556F00672AD2761272F6AAABA0B8, ___speed_5)),};

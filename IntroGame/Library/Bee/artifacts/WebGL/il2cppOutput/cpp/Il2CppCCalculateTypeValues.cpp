@@ -61486,6 +61486,12 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___wintext_6;
 	// PlayerController GameManager::pc
 	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___pc_7;
+	// UnityEngine.GameObject GameManager::Player
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Player_8;
+	// UnityEngine.UI.Text GameManager::PlayerPosition
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___PlayerPosition_9;
+	// UnityEngine.UI.Text GameManager::PlayerVelocity
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___PlayerVelocity_10;
 };
 
 // UnityEngine.InputSystem.GravitySensor
